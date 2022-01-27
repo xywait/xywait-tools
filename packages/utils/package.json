@@ -1,6 +1,6 @@
 {
   "name": "@xywait/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "xywait <734445114@qq.com>",
   "homepage": "",
@@ -10,6 +10,10 @@
   },
   "scripts": {},
   "dependencies": {
+    "moment": "^2.29.1",
     "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12"
   }
 }
