@@ -1,0 +1,15 @@
+{
+  "name": "@xywait/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "xywait <734445114@qq.com>",
+  "homepage": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
