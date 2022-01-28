@@ -5,8 +5,7 @@ import * as sourcemaps from "gulp-sourcemaps";
 import * as log from "fancy-log";
 
 const packages = {
-	utils: createProject("packages/utils/tsconfig.json"),
-	'nest-common': createProject("packages/nest-common/tsconfig.json"),
+	utils: createProject("packages/utils/tsconfig.json")
 };
 
 const modules = Object.keys(packages);

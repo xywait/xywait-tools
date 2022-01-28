@@ -15,7 +15,7 @@
     "lib": ["es7"],
     "paths": {
       "@xywait/utils": ["./packages/utils"],
-      "@xywait/utils/*": ["./packages/utils/*"],
+      "@xywait/utils/*": ["./packages/utils/*"]
     }
   },
   "include": ["packages/**/*"],

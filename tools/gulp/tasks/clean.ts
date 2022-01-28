@@ -7,17 +7,22 @@ import * as deleteEmpty from "delete-empty";
  * Cleans the build output assets from the packages folders
  */
 function cleanOutput() {
-	return src(
-		[
-			`${source}/**/*.js`,
-			`${source}/**/*.d.ts`,
-			`${source}/**/*.js.map`,
-			`${source}/**/*.d.ts.map`,
-		],
-		{
-			read: false,
-		}
-	).pipe(clean());
+	try{
+		return src(
+			[
+				`${source}/**/*.js`,
+				`${source}/**/*.d.ts`,
+				`${source}/**/*.js.map`,
+				`${source}/**/*.d.ts.map`,
+			],
+			{
+				read: false,
+			}
+		).pipe(clean());
+	}catch(error){
+		console.log("cleanOutput:error:", error)
+	}
+
 }
 
 /**
