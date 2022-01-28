@@ -8,7 +8,7 @@ const moment = require("moment");
  * @param len:number 密码盐长度
  * @returns:string
  */
-export const getSalt = (len: number = 6) => {
+export function getSalt(len: number = 6) {
 	const arr = [
 		"a",
 		"b",
@@ -50,7 +50,7 @@ export const getSalt = (len: number = 6) => {
  * @param key 密码盐
  * @returns
  */
-export const cryptoMd5 = async (password, key) => {
+export async function cryptoMd5(password, key) {
 	const hash1 = await createHash("md5").update(password).digest("hex");
 	const hash2 = await createHash("md5")
 		.update(hash1 + key)
@@ -64,7 +64,7 @@ export const cryptoMd5 = async (password, key) => {
  * @param suffixes 后缀
  * @returns
  */
-export const getTimeNo = (prefixes = '', suffixes= ''): string => {
+export function getTimeNo(prefixes = '', suffixes= ''): string{
 	let current = moment();
 	let year = current.get("years");
 	let month = current.get("months");

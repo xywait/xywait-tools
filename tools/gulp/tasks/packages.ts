@@ -6,6 +6,7 @@ import * as log from "fancy-log";
 
 const packages = {
 	utils: createProject("packages/utils/tsconfig.json"),
+	'nest-common': createProject("packages/nest-commoon/tsconfig.json"),
 };
 
 const modules = Object.keys(packages);
