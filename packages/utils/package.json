@@ -1,6 +1,6 @@
 {
   "name": "@xywait/utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "> TODO: description",
   "author": "xywait <734445114@qq.com>",
   "homepage": "",
@@ -24,5 +24,6 @@
     "ts-node": "^10.4.0",
     "tsconfig-paths": "^3.12.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "gitHead": "858fc39db9a937fdd0507af0e6be2cabfafa04e0"
 }
