@@ -10,10 +10,10 @@ function cleanOutput() {
 	try{
 		return src(
 			[
-				`${source}/**/*.js`,
-				`${source}/**/*.d.ts`,
-				`${source}/**/*.js.map`,
-				`${source}/**/*.d.ts.map`,
+			`${source}/**/dist/**/*.js`,
+			`${source}/**/dist/**/*.d.ts`,
+			`${source}/**/dist/**/*.js.map`,
+			`${source}/**/dist/**/*.d.ts.map`
 			],
 			{
 				read: false,

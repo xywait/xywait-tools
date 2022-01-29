@@ -12,11 +12,7 @@
     "sourceMap": true,
     "allowJs": true,
     "outDir": "dist",
-    "lib": ["es7"],
-    "paths": {
-      "@xywait/utils": ["./packages/utils"],
-      "@xywait/utils/*": ["./packages/utils/*"]
-    }
+    "lib": ["es7"]
   },
   "include": ["packages/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
