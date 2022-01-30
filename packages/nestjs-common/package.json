@@ -1,6 +1,6 @@
 {
   "name": "@xywait/nestjs-common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "xywait <734445114@qq.com>",
   "homepage": "https://github.com/xywait/xywait-tools#readme",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^8.2.6",
+    "express": "^4.17.2",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.2",
     "ts-lib": "^0.0.5"
